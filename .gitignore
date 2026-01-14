@@ -11,6 +11,8 @@
 
 # Debug symbols
 *.dSYM/
+*.trace/
+*.xml
 
 # IDEs and editors
 .vscode/

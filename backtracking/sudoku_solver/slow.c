@@ -117,6 +117,7 @@ void solve(int grid[9][9]) {
     if (is_valid(grid)) {
       print_grid(grid);
       fflush(stdout);
+      exit(0);
       return;
     }
   }
