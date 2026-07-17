@@ -6,16 +6,16 @@ class DFA():
     # 5 tuple 
     # https://en.wikipedia.org/wiki/Deterministic_finite_automaton
     def __init__(self, Q, Sigma, delta, q0, F):
-        # finite set of states
+        # finite set of states (set)
         self.Q = Q
-        # finite set of symbols Σ 
+        # finite set of symbols Σ (set)
         self.Sigma = Sigma
-        # transition function 
+        # transition function  (set)
         self.delta = delta
-        # start state
+        # start state (element of Q)
         self.q0 = q0
-        # set of final states
-        self.F = F
+        # set of final states (subset of Q)
+        self.F = F 
 
 
     def run (self, w):
